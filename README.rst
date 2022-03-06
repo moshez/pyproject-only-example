@@ -30,3 +30,13 @@ files other than:
 
 * The README (you are reading it right now)
 * :code:`pyproject.toml`
+
+In principle,
+the README itself could also be embedded into
+:code:`pyproject.toml`.
+However,
+having a README at the top
+helps GitHub
+(and most other version control servers)
+display a nice explanation
+when people see the project in a browser.

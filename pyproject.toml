@@ -1,0 +1,9 @@
+[build-system]
+requires = [
+    "setuptools @ git+https://github.com/pypa/setuptools@experimental/support-pyproject"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "orbipatch"
+version = "2022.3.6"

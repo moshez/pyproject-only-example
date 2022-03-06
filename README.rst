@@ -76,3 +76,6 @@ metadata.
 All other keys are used as
 :code:`project_urls`
 metadata.
+This does mean that specifying a home page
+will have it double linked
+from PyPI.

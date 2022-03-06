@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "orbipatch"
-version = "2022.3.6"
+version = "2022.3.6.1"
 description = "silly project named after a niche math thing"
 readme = "README.rst"
 authors = [{name = "Moshe Zadka", email = "orbipatch-author@devskillup.com"}]
@@ -30,3 +30,7 @@ HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTIO
 CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE
 OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 """
+
+[project.urls]
+Home-Page = "https://github.com/moshez/pyproject-only-example"
+Issues = "https://github.com/moshez/pyproject-only-example/issues"

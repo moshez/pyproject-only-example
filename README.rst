@@ -43,3 +43,36 @@ helps GitHub
 (and most other version control servers)
 display a nice explanation
 when people see the project in a browser.
+
+A few notes:
+
+The
+:code:`authors`
+field needs to be carefully formatted:
+
+.. code::
+
+    authors = [{name = "Moshe Zadka", email = "orbipatch-author@devskillup.com"}]
+
+It is a TOML
+**list**
+of
+**objects**
+(the equivalent to Python
+**dicts**)
+with the keys:
+
+* :code:`name`
+* :code:`email`
+
+The
+:code:`project.urls`
+section treats the key
+:code:`Home-Page`
+as a special case,
+using it as the
+:code:`Home-Page`
+metadata.
+All other keys are used as
+:code:`project_urls`
+metadata.

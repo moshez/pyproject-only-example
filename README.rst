@@ -1,6 +1,9 @@
 Packaging example with no setup.cfg
 ===================================
 
+.. image:: https://badge.fury.io/py/orbipatch.png
+    :target: https://badge.fury.io/py/orbipatch
+
 This example follows the guidelines in the
 `request for testing`_
 in order to test a

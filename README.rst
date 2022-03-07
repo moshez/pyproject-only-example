@@ -69,6 +69,10 @@ The
 :code:`project.urls`
 section treats the key
 :code:`Home-Page`
+(or variations such as:
+:code:`home-page`,
+:code:`homepage`,
+etc),
 as a special case,
 using it as the
 :code:`Home-Page`
@@ -76,6 +80,7 @@ metadata.
 All other keys are used as
 :code:`project_urls`
 metadata.
-This does mean that specifying a home page
-will have it double linked
-from PyPI.
+If you want to avoid
+having it double-linked from PyPI
+please use
+:code:`Homepage`.
